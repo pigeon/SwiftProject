@@ -7,225 +7,309 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16974CD14895EEAC339F49D0 /* Pods-MyFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6E3E916DAB3AB90DE0B71D /* Pods-MyFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22ADC7340746AF5B8AD2B9DC /* TSCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DDCD9320FD093BE05AC5F6 /* TSCurrencyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37ACF371A5C5950EAE777D03 /* Pods-MyFramework-TSCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5ABCA803E21F44836DDBC2 /* Pods-MyFramework-TSCurrencyTextField-dummy.m */; };
-		437D17AFED93D3232F904FAA /* Pods-MyFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9472A4AE3797844D0F95A /* Pods-MyFramework-dummy.m */; };
-		5CB04CEA5D31E0679AB2D9F1 /* Pods-MyFramework-TSCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C95FA146CE0F6AEF5A8090C /* Pods-MyFramework-TSCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DEEF92795A4D3BE135EAACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6D09DDD9BEEF11F79F0751 /* Foundation.framework */; };
-		9E8A33AAC1F3CAF0E70EAA1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6D09DDD9BEEF11F79F0751 /* Foundation.framework */; };
-		B384605F0900586D12A18448 /* TSCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 888051751ED8DA08DED605B0 /* TSCurrencyTextField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		1A89B8FB288B28BC9ADE07DF /* TSCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CA320FE79AD36B78A5F924D2 /* TSCurrencyTextField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		37703497B75BB1CB127544BA /* Pods-MyFramework-NZLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39087298E759E54FFAE69D1F /* Pods-MyFramework-NZLabel-dummy.m */; };
+		4CF934D5E9EC86EC01E90F1A /* TSCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 319BF42232654340FD8A7356 /* TSCurrencyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A28B529B188306AE869F3C3 /* Pods-MyFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E35CB0B81285774705A87FC7 /* Pods-MyFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6846CA4FEB8D05203F01EB /* Pods-MyFramework-TSCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9060CF333F0A79FFE0765531 /* Pods-MyFramework-TSCurrencyTextField-dummy.m */; };
+		6AF2369AF737EF936086EC41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5835C4A503C1AF521376A28C /* Foundation.framework */; };
+		8A517C7BBAF7CCBE09354FC9 /* NZLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 338C23F0274296F8DFBAD0B3 /* NZLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D2BF239CCD7FDE8E0A929EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5835C4A503C1AF521376A28C /* Foundation.framework */; };
+		AEA70970FCDBF685358889C7 /* NZLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B666A6FA93D78C00EFFFB /* NZLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		DAB615652D8857D3189032AD /* Pods-MyFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F79D080610ED059BF8901181 /* Pods-MyFramework-dummy.m */; };
+		DBF2869E8A5E4F1B46686A04 /* Pods-MyFramework-TSCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B77EACCEDA1F317EEE3F61E1 /* Pods-MyFramework-TSCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC193221620460A4FC111AA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5835C4A503C1AF521376A28C /* Foundation.framework */; };
+		FBE63A5BE9B2DFC18320129F /* Pods-MyFramework-NZLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3154E4EA4763E0BA0EED7B81 /* Pods-MyFramework-NZLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2938A34404DA639DD4ECA1E8 /* PBXContainerItemProxy */ = {
+		8AC9862D1B077CEC35E9200F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D42461AAEEE9FA31A62B56A4 /* Project object */;
+			containerPortal = 281BF11A4C5EE316E1D63FEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 358021BBDBBC14A24A7F7728;
+			remoteGlobalIDString = 61B5196493590E7E916D920C;
 			remoteInfo = "Pods-MyFramework-TSCurrencyTextField";
+		};
+		CAF43316AC7F38196373D964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281BF11A4C5EE316E1D63FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607A86481A172DA4F843BD1E;
+			remoteInfo = "Pods-MyFramework-NZLabel";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0356CB86455AE09200DF1E08 /* Pods-MyFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MyFramework.modulemap"; sourceTree = "<group>"; };
-		0AFDAA57119CF35E30A86E3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17DDCD9320FD093BE05AC5F6 /* TSCurrencyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSCurrencyTextField.h; path = TSCurrencyTextField/TSCurrencyTextField.h; sourceTree = "<group>"; };
-		1B0224737679F256CAABBA59 /* Pods_MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D6E3E916DAB3AB90DE0B71D /* Pods-MyFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFramework-umbrella.h"; sourceTree = "<group>"; };
-		3316BDB8446EF778C9A72702 /* Pods-MyFramework-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFramework-environment.h"; sourceTree = "<group>"; };
-		3A0BB38483680DDB12C4AD4C /* Pods-MyFramework-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyFramework-resources.sh"; sourceTree = "<group>"; };
-		48BFCF895F0760718756304B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B27063771190E4288E97CA4 /* TSCurrencyTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSCurrencyTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F5ABCA803E21F44836DDBC2 /* Pods-MyFramework-TSCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyFramework-TSCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
-		888051751ED8DA08DED605B0 /* TSCurrencyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSCurrencyTextField.m; path = TSCurrencyTextField/TSCurrencyTextField.m; sourceTree = "<group>"; };
-		8AB9472A4AE3797844D0F95A /* Pods-MyFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyFramework-dummy.m"; sourceTree = "<group>"; };
-		8B6D09DDD9BEEF11F79F0751 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8BB36D11C7A6241B85A0B0F4 /* Pods-MyFramework-TSCurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MyFramework-TSCurrencyTextField.modulemap"; sourceTree = "<group>"; };
-		8C95FA146CE0F6AEF5A8090C /* Pods-MyFramework-TSCurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFramework-TSCurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
-		8DA477E9448E0659E32DCC8F /* Pods-MyFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
-		949017E8CA797266C1E24DF7 /* Pods-MyFramework-TSCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFramework-TSCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
-		9E8302093D692FB5F7A994BB /* Pods-MyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		B4F6B8DA845C95BA49EE40E1 /* Pods-MyFramework-TSCurrencyTextField-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFramework-TSCurrencyTextField-Private.xcconfig"; sourceTree = "<group>"; };
-		BCA92B24B87E62E3E82D03B6 /* Pods-MyFramework-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyFramework-frameworks.sh"; sourceTree = "<group>"; };
-		D6FF3FD5959F943F7CE857F0 /* Pods-MyFramework-TSCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFramework-TSCurrencyTextField.xcconfig"; sourceTree = "<group>"; };
-		E6B70460B496AD5F1862BB86 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E789954A1A4E6FBC2976997A /* Pods-MyFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyFramework-acknowledgements.plist"; sourceTree = "<group>"; };
-		FB5CA0CF3D145CECA557B969 /* Pods-MyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFramework.release.xcconfig"; sourceTree = "<group>"; };
+		06AD919E60C783F39F405ECA /* Pods-MyFramework-TSCurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MyFramework-TSCurrencyTextField.modulemap"; sourceTree = "<group>"; };
+		15CF6E98DBB6975CB6C6D420 /* Pods-MyFramework-NZLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFramework-NZLabel.xcconfig"; sourceTree = "<group>"; };
+		15E1DA8C1D2459090CDC4F3B /* Pods-MyFramework-NZLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MyFramework-NZLabel.modulemap"; sourceTree = "<group>"; };
+		16855FAE12EDD67952628078 /* Pods-MyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		1810EE7AAB7CC1DC0F20222C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183A7A8CE84E0B25C69E4D33 /* Pods-MyFramework-NZLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFramework-NZLabel-prefix.pch"; sourceTree = "<group>"; };
+		1A72E25FC29CD2865D519F81 /* Pods-MyFramework-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyFramework-resources.sh"; sourceTree = "<group>"; };
+		1ED47834D4053BE6152CABCF /* Pods-MyFramework-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyFramework-frameworks.sh"; sourceTree = "<group>"; };
+		232672FF1F426E60443C59CE /* Pods-MyFramework-TSCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFramework-TSCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
+		2A052A81704C26B3B8CACF38 /* Pods-MyFramework-TSCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFramework-TSCurrencyTextField.xcconfig"; sourceTree = "<group>"; };
+		3154E4EA4763E0BA0EED7B81 /* Pods-MyFramework-NZLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFramework-NZLabel-umbrella.h"; sourceTree = "<group>"; };
+		319BF42232654340FD8A7356 /* TSCurrencyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSCurrencyTextField.h; path = TSCurrencyTextField/TSCurrencyTextField.h; sourceTree = "<group>"; };
+		338C23F0274296F8DFBAD0B3 /* NZLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NZLabel.h; path = NZLabel/NZLabel.h; sourceTree = "<group>"; };
+		39087298E759E54FFAE69D1F /* Pods-MyFramework-NZLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyFramework-NZLabel-dummy.m"; sourceTree = "<group>"; };
+		44A6D9CD12320D55FC199815 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		576A1AEBA248C5C5F8D2980F /* Pods-MyFramework-TSCurrencyTextField-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFramework-TSCurrencyTextField-Private.xcconfig"; sourceTree = "<group>"; };
+		5835C4A503C1AF521376A28C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		606B666A6FA93D78C00EFFFB /* NZLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NZLabel.m; path = NZLabel/NZLabel.m; sourceTree = "<group>"; };
+		63F2192F92848302E62802AB /* Pods-MyFramework-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFramework-environment.h"; sourceTree = "<group>"; };
+		7987F7D6F0E7CB55F8B3BCC7 /* Pods-MyFramework-NZLabel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFramework-NZLabel-Private.xcconfig"; sourceTree = "<group>"; };
+		899446E9BCD4160D696020A8 /* Pods-MyFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyFramework-acknowledgements.plist"; sourceTree = "<group>"; };
+		9060CF333F0A79FFE0765531 /* Pods-MyFramework-TSCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyFramework-TSCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
+		9196374DA9DFCC6A2DAB7881 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EEEBA94F38FB7F62796CCE0 /* Pods-MyFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MyFramework.modulemap"; sourceTree = "<group>"; };
+		A6A2BA43E0B216848D006DD1 /* Pods-MyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFramework.release.xcconfig"; sourceTree = "<group>"; };
+		A91BD7EDEAAEE5333FC7FF19 /* Pods_MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A69AF34A451B92BF62F437 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C05B43CC79E7E79CFF070D /* Pods-MyFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B77EACCEDA1F317EEE3F61E1 /* Pods-MyFramework-TSCurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFramework-TSCurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
+		BA42096E10858953259A09D8 /* TSCurrencyTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSCurrencyTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA320FE79AD36B78A5F924D2 /* TSCurrencyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSCurrencyTextField.m; path = TSCurrencyTextField/TSCurrencyTextField.m; sourceTree = "<group>"; };
+		E35CB0B81285774705A87FC7 /* Pods-MyFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFramework-umbrella.h"; sourceTree = "<group>"; };
+		E439DF87E5E82532ED044A8A /* NZLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NZLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79D080610ED059BF8901181 /* Pods-MyFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyFramework-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1C2435EBD2F07B61BDB9A392 /* Frameworks */ = {
+		59A0CF0488E4B716F134E49A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E8A33AAC1F3CAF0E70EAA1D /* Foundation.framework in Frameworks */,
+				EC193221620460A4FC111AA3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5E2F8F5C47A6154BBA66C49 /* Frameworks */ = {
+		86C91A9FDA003112A38A2B13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DEEF92795A4D3BE135EAACE /* Foundation.framework in Frameworks */,
+				6AF2369AF737EF936086EC41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFACE5C06E47B14270CC5DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2BF239CCD7FDE8E0A929EC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1FA7C91BC46A02BACDAA0A66 /* iOS */ = {
+		0DDA8EC77491E8BB2DC6038D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8B6D09DDD9BEEF11F79F0751 /* Foundation.framework */,
+				73029A2CA92C3C806C8EE080 /* Pods-MyFramework */,
 			);
-			name = iOS;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		335D328D90D2C52B18D27C79 /* Core */ = {
+		148A5A5388B9F73462FFDB9A /* TSCurrencyTextField */ = {
 			isa = PBXGroup;
 			children = (
-				17DDCD9320FD093BE05AC5F6 /* TSCurrencyTextField.h */,
-				888051751ED8DA08DED605B0 /* TSCurrencyTextField.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		45BEE3B00FFCCCB93C2A882E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1B0224737679F256CAABBA59 /* Pods_MyFramework.framework */,
-				5B27063771190E4288E97CA4 /* TSCurrencyTextField.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8DDA78571603EF8935EC5AC7 = {
-			isa = PBXGroup;
-			children = (
-				E6B70460B496AD5F1862BB86 /* Podfile */,
-				E7C56BF207DFF6BFF309F3A8 /* Frameworks */,
-				C2C30827E6C404990FC68834 /* Pods */,
-				45BEE3B00FFCCCB93C2A882E /* Products */,
-				F69A58FC52B777B2782B5A0A /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		9FA2E056EA5D84AFEE26A6CF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				48BFCF895F0760718756304B /* Info.plist */,
-				8BB36D11C7A6241B85A0B0F4 /* Pods-MyFramework-TSCurrencyTextField.modulemap */,
-				D6FF3FD5959F943F7CE857F0 /* Pods-MyFramework-TSCurrencyTextField.xcconfig */,
-				B4F6B8DA845C95BA49EE40E1 /* Pods-MyFramework-TSCurrencyTextField-Private.xcconfig */,
-				5F5ABCA803E21F44836DDBC2 /* Pods-MyFramework-TSCurrencyTextField-dummy.m */,
-				949017E8CA797266C1E24DF7 /* Pods-MyFramework-TSCurrencyTextField-prefix.pch */,
-				8C95FA146CE0F6AEF5A8090C /* Pods-MyFramework-TSCurrencyTextField-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-MyFramework-TSCurrencyTextField";
-			sourceTree = "<group>";
-		};
-		C2C30827E6C404990FC68834 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D6722C9664326EB43D212879 /* TSCurrencyTextField */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D6722C9664326EB43D212879 /* TSCurrencyTextField */ = {
-			isa = PBXGroup;
-			children = (
-				335D328D90D2C52B18D27C79 /* Core */,
-				9FA2E056EA5D84AFEE26A6CF /* Support Files */,
+				D060CB466DF965F36B413495 /* Core */,
+				738F32E30B07E0F40652D25C /* Support Files */,
 			);
 			path = TSCurrencyTextField;
 			sourceTree = "<group>";
 		};
-		DEA68C677970554CF1219B4E /* Pods-MyFramework */ = {
+		668DECA60F564078E7841593 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0AFDAA57119CF35E30A86E3A /* Info.plist */,
-				0356CB86455AE09200DF1E08 /* Pods-MyFramework.modulemap */,
-				8DA477E9448E0659E32DCC8F /* Pods-MyFramework-acknowledgements.markdown */,
-				E789954A1A4E6FBC2976997A /* Pods-MyFramework-acknowledgements.plist */,
-				8AB9472A4AE3797844D0F95A /* Pods-MyFramework-dummy.m */,
-				3316BDB8446EF778C9A72702 /* Pods-MyFramework-environment.h */,
-				BCA92B24B87E62E3E82D03B6 /* Pods-MyFramework-frameworks.sh */,
-				3A0BB38483680DDB12C4AD4C /* Pods-MyFramework-resources.sh */,
-				2D6E3E916DAB3AB90DE0B71D /* Pods-MyFramework-umbrella.h */,
-				9E8302093D692FB5F7A994BB /* Pods-MyFramework.debug.xcconfig */,
-				FB5CA0CF3D145CECA557B969 /* Pods-MyFramework.release.xcconfig */,
+				AE7F62A940DA29BAAC339E2E /* NZLabel */,
+				148A5A5388B9F73462FFDB9A /* TSCurrencyTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6697CD141238BBA2D7B77B62 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9196374DA9DFCC6A2DAB7881 /* Info.plist */,
+				15E1DA8C1D2459090CDC4F3B /* Pods-MyFramework-NZLabel.modulemap */,
+				15CF6E98DBB6975CB6C6D420 /* Pods-MyFramework-NZLabel.xcconfig */,
+				7987F7D6F0E7CB55F8B3BCC7 /* Pods-MyFramework-NZLabel-Private.xcconfig */,
+				39087298E759E54FFAE69D1F /* Pods-MyFramework-NZLabel-dummy.m */,
+				183A7A8CE84E0B25C69E4D33 /* Pods-MyFramework-NZLabel-prefix.pch */,
+				3154E4EA4763E0BA0EED7B81 /* Pods-MyFramework-NZLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MyFramework-NZLabel";
+			sourceTree = "<group>";
+		};
+		73029A2CA92C3C806C8EE080 /* Pods-MyFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B3A69AF34A451B92BF62F437 /* Info.plist */,
+				9EEEBA94F38FB7F62796CCE0 /* Pods-MyFramework.modulemap */,
+				B3C05B43CC79E7E79CFF070D /* Pods-MyFramework-acknowledgements.markdown */,
+				899446E9BCD4160D696020A8 /* Pods-MyFramework-acknowledgements.plist */,
+				F79D080610ED059BF8901181 /* Pods-MyFramework-dummy.m */,
+				63F2192F92848302E62802AB /* Pods-MyFramework-environment.h */,
+				1ED47834D4053BE6152CABCF /* Pods-MyFramework-frameworks.sh */,
+				1A72E25FC29CD2865D519F81 /* Pods-MyFramework-resources.sh */,
+				E35CB0B81285774705A87FC7 /* Pods-MyFramework-umbrella.h */,
+				16855FAE12EDD67952628078 /* Pods-MyFramework.debug.xcconfig */,
+				A6A2BA43E0B216848D006DD1 /* Pods-MyFramework.release.xcconfig */,
 			);
 			name = "Pods-MyFramework";
 			path = "Target Support Files/Pods-MyFramework";
 			sourceTree = "<group>";
 		};
-		E7C56BF207DFF6BFF309F3A8 /* Frameworks */ = {
+		738F32E30B07E0F40652D25C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1FA7C91BC46A02BACDAA0A66 /* iOS */,
+				1810EE7AAB7CC1DC0F20222C /* Info.plist */,
+				06AD919E60C783F39F405ECA /* Pods-MyFramework-TSCurrencyTextField.modulemap */,
+				2A052A81704C26B3B8CACF38 /* Pods-MyFramework-TSCurrencyTextField.xcconfig */,
+				576A1AEBA248C5C5F8D2980F /* Pods-MyFramework-TSCurrencyTextField-Private.xcconfig */,
+				9060CF333F0A79FFE0765531 /* Pods-MyFramework-TSCurrencyTextField-dummy.m */,
+				232672FF1F426E60443C59CE /* Pods-MyFramework-TSCurrencyTextField-prefix.pch */,
+				B77EACCEDA1F317EEE3F61E1 /* Pods-MyFramework-TSCurrencyTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MyFramework-TSCurrencyTextField";
+			sourceTree = "<group>";
+		};
+		7753A06013FCFE9522B6D8CB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5835C4A503C1AF521376A28C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		867E02238951DC7611532CFD = {
+			isa = PBXGroup;
+			children = (
+				44A6D9CD12320D55FC199815 /* Podfile */,
+				C9C09E50AFC7D0910F935A76 /* Frameworks */,
+				668DECA60F564078E7841593 /* Pods */,
+				FE19C27EEC29B57727739C04 /* Products */,
+				0DDA8EC77491E8BB2DC6038D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AE7F62A940DA29BAAC339E2E /* NZLabel */ = {
+			isa = PBXGroup;
+			children = (
+				338C23F0274296F8DFBAD0B3 /* NZLabel.h */,
+				606B666A6FA93D78C00EFFFB /* NZLabel.m */,
+				6697CD141238BBA2D7B77B62 /* Support Files */,
+			);
+			path = NZLabel;
+			sourceTree = "<group>";
+		};
+		C9C09E50AFC7D0910F935A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7753A06013FCFE9522B6D8CB /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F69A58FC52B777B2782B5A0A /* Targets Support Files */ = {
+		D060CB466DF965F36B413495 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				DEA68C677970554CF1219B4E /* Pods-MyFramework */,
+				319BF42232654340FD8A7356 /* TSCurrencyTextField.h */,
+				CA320FE79AD36B78A5F924D2 /* TSCurrencyTextField.m */,
 			);
-			name = "Targets Support Files";
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FE19C27EEC29B57727739C04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E439DF87E5E82532ED044A8A /* NZLabel.framework */,
+				A91BD7EDEAAEE5333FC7FF19 /* Pods_MyFramework.framework */,
+				BA42096E10858953259A09D8 /* TSCurrencyTextField.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7D9AB478F6B7BADFAA9ACD4C /* Headers */ = {
+		0634CC9599C8FFE6818A5990 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16974CD14895EEAC339F49D0 /* Pods-MyFramework-umbrella.h in Headers */,
+				8A517C7BBAF7CCBE09354FC9 /* NZLabel.h in Headers */,
+				FBE63A5BE9B2DFC18320129F /* Pods-MyFramework-NZLabel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84BC81457C0CB29DF4D26D5C /* Headers */ = {
+		A6586F6C48AF1B53D4656861 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CB04CEA5D31E0679AB2D9F1 /* Pods-MyFramework-TSCurrencyTextField-umbrella.h in Headers */,
-				22ADC7340746AF5B8AD2B9DC /* TSCurrencyTextField.h in Headers */,
+				6A28B529B188306AE869F3C3 /* Pods-MyFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02176CE5337F4679272B32A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF2869E8A5E4F1B46686A04 /* Pods-MyFramework-TSCurrencyTextField-umbrella.h in Headers */,
+				4CF934D5E9EC86EC01E90F1A /* TSCurrencyTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1376EB6F2657D3793BBBCADB /* Pods-MyFramework */ = {
+		3EB6DDD8A04072F7EE2F352B /* Pods-MyFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AB842B9605157767EB51407 /* Build configuration list for PBXNativeTarget "Pods-MyFramework" */;
+			buildConfigurationList = 98546FA898F62F160391C64E /* Build configuration list for PBXNativeTarget "Pods-MyFramework" */;
 			buildPhases = (
-				0B7BFFA4C90503F9D96ED042 /* Sources */,
-				B5E2F8F5C47A6154BBA66C49 /* Frameworks */,
-				7D9AB478F6B7BADFAA9ACD4C /* Headers */,
+				11F83225D27FDFF67E27D8F2 /* Sources */,
+				59A0CF0488E4B716F134E49A /* Frameworks */,
+				A6586F6C48AF1B53D4656861 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3ACECCCF6A8D896881A5944C /* PBXTargetDependency */,
+				4383DE4E3D80575C048A9FF5 /* PBXTargetDependency */,
+				082B31F87DF7D3A78B25740E /* PBXTargetDependency */,
 			);
 			name = "Pods-MyFramework";
 			productName = "Pods-MyFramework";
-			productReference = 1B0224737679F256CAABBA59 /* Pods_MyFramework.framework */;
+			productReference = A91BD7EDEAAEE5333FC7FF19 /* Pods_MyFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		358021BBDBBC14A24A7F7728 /* Pods-MyFramework-TSCurrencyTextField */ = {
+		607A86481A172DA4F843BD1E /* Pods-MyFramework-NZLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12BB08D88D14A367A8F3B37B /* Build configuration list for PBXNativeTarget "Pods-MyFramework-TSCurrencyTextField" */;
+			buildConfigurationList = 72C3D67E538B136CE7FD07B9 /* Build configuration list for PBXNativeTarget "Pods-MyFramework-NZLabel" */;
 			buildPhases = (
-				1FDEBBF290ED437704D3DA70 /* Sources */,
-				1C2435EBD2F07B61BDB9A392 /* Frameworks */,
-				84BC81457C0CB29DF4D26D5C /* Headers */,
+				944CACBF020219E081F8AFF7 /* Sources */,
+				FFACE5C06E47B14270CC5DEA /* Frameworks */,
+				0634CC9599C8FFE6818A5990 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MyFramework-NZLabel";
+			productName = "Pods-MyFramework-NZLabel";
+			productReference = E439DF87E5E82532ED044A8A /* NZLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61B5196493590E7E916D920C /* Pods-MyFramework-TSCurrencyTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92393DCAB2C60391EBBA40F3 /* Build configuration list for PBXNativeTarget "Pods-MyFramework-TSCurrencyTextField" */;
+			buildPhases = (
+				BB00302B6207DD47ECFC2112 /* Sources */,
+				86C91A9FDA003112A38A2B13 /* Frameworks */,
+				B02176CE5337F4679272B32A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -233,212 +317,82 @@
 			);
 			name = "Pods-MyFramework-TSCurrencyTextField";
 			productName = "Pods-MyFramework-TSCurrencyTextField";
-			productReference = 5B27063771190E4288E97CA4 /* TSCurrencyTextField.framework */;
+			productReference = BA42096E10858953259A09D8 /* TSCurrencyTextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D42461AAEEE9FA31A62B56A4 /* Project object */ = {
+		281BF11A4C5EE316E1D63FEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 8A3299E3AFBA9A55643968E7 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 95C0558E11758F8EA56241D1 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 8DDA78571603EF8935EC5AC7;
-			productRefGroup = 45BEE3B00FFCCCB93C2A882E /* Products */;
+			mainGroup = 867E02238951DC7611532CFD;
+			productRefGroup = FE19C27EEC29B57727739C04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1376EB6F2657D3793BBBCADB /* Pods-MyFramework */,
-				358021BBDBBC14A24A7F7728 /* Pods-MyFramework-TSCurrencyTextField */,
+				3EB6DDD8A04072F7EE2F352B /* Pods-MyFramework */,
+				607A86481A172DA4F843BD1E /* Pods-MyFramework-NZLabel */,
+				61B5196493590E7E916D920C /* Pods-MyFramework-TSCurrencyTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B7BFFA4C90503F9D96ED042 /* Sources */ = {
+		11F83225D27FDFF67E27D8F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				437D17AFED93D3232F904FAA /* Pods-MyFramework-dummy.m in Sources */,
+				DAB615652D8857D3189032AD /* Pods-MyFramework-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FDEBBF290ED437704D3DA70 /* Sources */ = {
+		944CACBF020219E081F8AFF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37ACF371A5C5950EAE777D03 /* Pods-MyFramework-TSCurrencyTextField-dummy.m in Sources */,
-				B384605F0900586D12A18448 /* TSCurrencyTextField.m in Sources */,
+				AEA70970FCDBF685358889C7 /* NZLabel.m in Sources */,
+				37703497B75BB1CB127544BA /* Pods-MyFramework-NZLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB00302B6207DD47ECFC2112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6846CA4FEB8D05203F01EB /* Pods-MyFramework-TSCurrencyTextField-dummy.m in Sources */,
+				1A89B8FB288B28BC9ADE07DF /* TSCurrencyTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3ACECCCF6A8D896881A5944C /* PBXTargetDependency */ = {
+		082B31F87DF7D3A78B25740E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MyFramework-TSCurrencyTextField";
-			target = 358021BBDBBC14A24A7F7728 /* Pods-MyFramework-TSCurrencyTextField */;
-			targetProxy = 2938A34404DA639DD4ECA1E8 /* PBXContainerItemProxy */;
+			target = 61B5196493590E7E916D920C /* Pods-MyFramework-TSCurrencyTextField */;
+			targetProxy = 8AC9862D1B077CEC35E9200F /* PBXContainerItemProxy */;
+		};
+		4383DE4E3D80575C048A9FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyFramework-NZLabel";
+			target = 607A86481A172DA4F843BD1E /* Pods-MyFramework-NZLabel */;
+			targetProxy = CAF43316AC7F38196373D964 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05EAABBC738081F437A17E88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4F6B8DA845C95BA49EE40E1 /* Pods-MyFramework-TSCurrencyTextField-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MyFramework-TSCurrencyTextField/Pods-MyFramework-TSCurrencyTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-MyFramework-TSCurrencyTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MyFramework-TSCurrencyTextField/Pods-MyFramework-TSCurrencyTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TSCurrencyTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		18C7EEF7E629C5102A5C40F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E8302093D692FB5F7A994BB /* Pods-MyFramework.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MyFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MyFramework/Pods-MyFramework.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MyFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		83E8956EED15B66E0811B89D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB5CA0CF3D145CECA557B969 /* Pods-MyFramework.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MyFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MyFramework/Pods-MyFramework.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MyFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8AFD0AF2709F4542D778EDDD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4F6B8DA845C95BA49EE40E1 /* Pods-MyFramework-TSCurrencyTextField-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MyFramework-TSCurrencyTextField/Pods-MyFramework-TSCurrencyTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-MyFramework-TSCurrencyTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MyFramework-TSCurrencyTextField/Pods-MyFramework-TSCurrencyTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TSCurrencyTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C43BE284D6B40241CDBCE41E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D63F3937007AAD8060F9C459 /* Debug */ = {
+		1B3B5588E846260F512D477A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -477,37 +431,246 @@
 			};
 			name = Debug;
 		};
+		2DC2DA14B3CB21243596D564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7987F7D6F0E7CB55F8B3BCC7 /* Pods-MyFramework-NZLabel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MyFramework-NZLabel/Pods-MyFramework-NZLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyFramework-NZLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MyFramework-NZLabel/Pods-MyFramework-NZLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NZLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44B6FF151EE276E6E333611B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16855FAE12EDD67952628078 /* Pods-MyFramework.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MyFramework/Pods-MyFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MyFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79C0DDAA85633036BF7603E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576A1AEBA248C5C5F8D2980F /* Pods-MyFramework-TSCurrencyTextField-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MyFramework-TSCurrencyTextField/Pods-MyFramework-TSCurrencyTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyFramework-TSCurrencyTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MyFramework-TSCurrencyTextField/Pods-MyFramework-TSCurrencyTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TSCurrencyTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B892258D8896875CC9D3CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E0102D16021B362A962CC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576A1AEBA248C5C5F8D2980F /* Pods-MyFramework-TSCurrencyTextField-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MyFramework-TSCurrencyTextField/Pods-MyFramework-TSCurrencyTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyFramework-TSCurrencyTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MyFramework-TSCurrencyTextField/Pods-MyFramework-TSCurrencyTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TSCurrencyTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB5C5F6C18B25AC2824C5D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A2BA43E0B216848D006DD1 /* Pods-MyFramework.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MyFramework/Pods-MyFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MyFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA3542565CE5E3C527297906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7987F7D6F0E7CB55F8B3BCC7 /* Pods-MyFramework-NZLabel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MyFramework-NZLabel/Pods-MyFramework-NZLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyFramework-NZLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MyFramework-NZLabel/Pods-MyFramework-NZLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NZLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12BB08D88D14A367A8F3B37B /* Build configuration list for PBXNativeTarget "Pods-MyFramework-TSCurrencyTextField" */ = {
+		72C3D67E538B136CE7FD07B9 /* Build configuration list for PBXNativeTarget "Pods-MyFramework-NZLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05EAABBC738081F437A17E88 /* Debug */,
-				8AFD0AF2709F4542D778EDDD /* Release */,
+				2DC2DA14B3CB21243596D564 /* Debug */,
+				FA3542565CE5E3C527297906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AB842B9605157767EB51407 /* Build configuration list for PBXNativeTarget "Pods-MyFramework" */ = {
+		92393DCAB2C60391EBBA40F3 /* Build configuration list for PBXNativeTarget "Pods-MyFramework-TSCurrencyTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18C7EEF7E629C5102A5C40F1 /* Debug */,
-				83E8956EED15B66E0811B89D /* Release */,
+				8E0102D16021B362A962CC43 /* Debug */,
+				79C0DDAA85633036BF7603E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A3299E3AFBA9A55643968E7 /* Build configuration list for PBXProject "Pods" */ = {
+		95C0558E11758F8EA56241D1 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D63F3937007AAD8060F9C459 /* Debug */,
-				C43BE284D6B40241CDBCE41E /* Release */,
+				1B3B5588E846260F512D477A /* Debug */,
+				8B892258D8896875CC9D3CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98546FA898F62F160391C64E /* Build configuration list for PBXNativeTarget "Pods-MyFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B6FF151EE276E6E333611B /* Debug */,
+				EB5C5F6C18B25AC2824C5D5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D42461AAEEE9FA31A62B56A4 /* Project object */;
+	rootObject = 281BF11A4C5EE316E1D63FEA /* Project object */;
 }

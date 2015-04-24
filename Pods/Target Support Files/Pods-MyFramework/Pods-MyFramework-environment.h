@@ -6,6 +6,12 @@
 // project.
 
 
+// NZLabel
+#define COCOAPODS_POD_AVAILABLE_NZLabel
+#define COCOAPODS_VERSION_MAJOR_NZLabel 0
+#define COCOAPODS_VERSION_MINOR_NZLabel 0
+#define COCOAPODS_VERSION_PATCH_NZLabel 1
+
 // TSCurrencyTextField
 #define COCOAPODS_POD_AVAILABLE_TSCurrencyTextField
 #define COCOAPODS_VERSION_MAJOR_TSCurrencyTextField 0

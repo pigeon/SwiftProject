@@ -48,8 +48,10 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'NZLabel.framework'
   install_framework 'TSCurrencyTextField.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'NZLabel.framework'
   install_framework 'TSCurrencyTextField.framework'
 fi

@@ -25,6 +25,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import UIKit
 import MyFramework
+import NZLabel
 
 class ViewController: UIViewController {
 
@@ -35,6 +36,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.labelTemperature.text = "Loading Temperature.."
+        
+        
+        //JUST A TEST - THIS IS THE LINE THAT CRASHES THE APP
+        let myNewLabel = NZLabel(frame: CGRectMake(0, 0, 200, 300))
+
     }
     
     override func viewDidAppear(animated: Bool) {

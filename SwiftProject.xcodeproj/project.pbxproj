@@ -121,6 +121,8 @@
 		3BD66D5E1ADFE2B70090F909 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		3BD66D601ADFE2B70090F909 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		571C1395AFB757DBC0928C52 /* Pods_MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6EF0041AEAC31600CC6150 /* SwiftProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF6EF0051AEAC4A700CC6150 /* NZLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NZLabel.framework; path = "Pods/../build/Debug-iphoneos/Pods-MyFramework/NZLabel.framework"; sourceTree = "<group>"; };
 		E48A1A043A1C6D5BB1D82037 /* Pods-MyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFramework/Pods-MyFramework.release.xcconfig"; sourceTree = "<group>"; };
 		FA64C60B23716C577EF4C4C1 /* Pods-MyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFramework/Pods-MyFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,6 +205,7 @@
 				3BD66CDC1ADFCC170090F909 /* Images.xcassets */,
 				3BD66CDE1ADFCC170090F909 /* LaunchScreen.xib */,
 				3BD66CD31ADFCC170090F909 /* Supporting Files */,
+				AF6EF0041AEAC31600CC6150 /* SwiftProject-Bridging-Header.h */,
 			);
 			path = SwiftProject;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 		3BD66D581ADFE2B70090F909 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF6EF0051AEAC4A700CC6150 /* NZLabel.framework */,
 				3B2067F11AE54F4E005E7C53 /* TSCurrencyTextField.framework */,
 				3BD66D591ADFE2B70090F909 /* NotificationCenter.framework */,
 				571C1395AFB757DBC0928C52 /* Pods_MyFramework.framework */,
@@ -736,11 +740,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(CONFIGURATION_BUILD_DIR)/Pods-MyFramework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)/Pods-MyFramework",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods-MyFramework",
+				);
 				INFOPLIST_FILE = SwiftProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SwiftProject/SwiftProject-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -749,11 +756,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(CONFIGURATION_BUILD_DIR)/Pods-MyFramework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)/Pods-MyFramework",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods-MyFramework",
+				);
 				INFOPLIST_FILE = SwiftProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SwiftProject/SwiftProject-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -811,6 +821,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -833,6 +844,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};

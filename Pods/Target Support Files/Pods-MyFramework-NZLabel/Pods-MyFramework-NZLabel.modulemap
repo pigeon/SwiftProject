@@ -1,0 +1,6 @@
+framework module NZLabel {
+  umbrella header "Pods-MyFramework-NZLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
