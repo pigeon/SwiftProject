@@ -30,7 +30,22 @@ In this way when your framework is built, the public classes, methods or variabl
 
 To-Do
 
-## New Features
+## Branches
+
+#### master
+Based on everything I said above
+
+#### develop
+I have discovered something else using another pod, for this example I picked NZLabel.
+Basically, I added this pod because it has public methods in the hedear. 
+I also added a Bridging-Header to the app target. 
+
+When I try to use this class everything is fine but a runtime the app crashes due to a specific error:
+
+"dyld: Library not loaded: @rpath/NZLabel.framework/NZLabel"
+"Reason: image not found"
+
+## New Features To Add
 
 1. Add Swift based pod to the framework
 2. Add Objective-C classes to the frawework
